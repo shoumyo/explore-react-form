@@ -12,7 +12,6 @@ function App() {
   return (
     <>
       <div>
-        <h3>This is Shoumyo Speaking...</h3>
         {/* <SimpleForm></SimpleForm> */}
         {/* <FormAction></FormAction> */}
         {/* <ControlledField></ControlledField> */}
