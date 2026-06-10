@@ -1,12 +1,12 @@
 import React from 'react';
 import Special from './Special/Special';
 
-const Myself = () => {
+const Myself = ({Asset}) => {
     return (
         <div className='family-tree'>
             <h3>Myself</h3>
             <section className='flex'>
-                <Special></Special>
+                <Special Asset={Asset}></Special>
             </section>
         </div>
     );
